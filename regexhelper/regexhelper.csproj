@@ -5,8 +5,31 @@
 	<LangVersion>11</LangVersion>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>regexhelper</Title>
+    <Company />
+    <Authors>Fabian Schlüter</Authors>
+    <Description>A small library for people with less knowledge about regex</Description>
+    <Copyright>Copyright 2023 by Fabian Schlüter</Copyright>
+    <PackageProjectUrl>https://github.com/Fabian2000/regexhelper/</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Fabian2000/regexhelper/</RepositoryUrl>
+    <PackageTags>regex, help, builder, regexbuilder, regexprepared, prepared, statements, pattern, validation, validate, string, match, manipulation</PackageTags>
+    <PackageReleaseNotes>First creation of this package</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="LiveTest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
